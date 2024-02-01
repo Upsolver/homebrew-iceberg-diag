@@ -2,9 +2,9 @@ class IcebergDiag < Formula
   include Language::Python::Virtualenv
 
   desc "Upsolver Iceberg Auditor CLI"
-  homepage ""
-  url "https://github.com/Upsolver/iceberg-diag/releases/download/0.1.0/iceberg_diag-0.1.0.tar.gz"
-  sha256 "95b760604e40ffe10832da21816a36301eeafeeed025359118ac949bb5abe9f1"
+  homepage "https://github.com/Upsolver/iceberg-diag"
+  url "https://github.com/Upsolver/iceberg-diag/releases/download/v0.1.0/iceberg_diag-0.1.0.tar.gz"
+  sha256 "0cbf859f3ea81706276a06975b2a6723f24e1641779664f23396f2bbba14bf14"
   license "MIT"
 
   depends_on "poetry" => :build
