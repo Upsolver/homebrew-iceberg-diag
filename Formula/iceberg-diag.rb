@@ -3,8 +3,8 @@ class IcebergDiag < Formula
 
   desc "Upsolver Iceberg Auditor CLI"
   homepage "https://github.com/Upsolver/iceberg-diag"
-  url "https://github.com/Upsolver/iceberg-diag/releases/download/v0.1.0/iceberg_diag-0.1.0.tar.gz"
-  sha256 "0cbf859f3ea81706276a06975b2a6723f24e1641779664f23396f2bbba14bf14"
+  url "https://github.com/Upsolver/iceberg-diag/releases/download/v0.1.1/iceberg_diag-0.1.1.tar.gz"
+  sha256 "d5fc4adc4219e7f48f94c3c1c309be3256ca7f6a2869960555301f7e8f5b6541"
   license "MIT"
 
   depends_on "poetry" => :build
